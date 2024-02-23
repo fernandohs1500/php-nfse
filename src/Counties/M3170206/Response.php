@@ -4,19 +4,19 @@ namespace NFePHP\NFSe\Counties\M3170206;
 
 /**
  * Classe para extração dos dados retornados pelos webservices da
- * Cidade de Uberlandia conforme o modelo DSFNET
+ * Cidade de Santa Barbara MG conforme o modelo Abrasf
  *
  * @category  NFePHP
- * @package   NFePHP\NFSe\Dsfnet\Response
+ * @package   NFePHP\NFSe\Counties\M3170206\Response
  * @copyright NFePHP Copyright (c) 2016
  * @license   http://www.gnu.org/licenses/lgpl.txt LGPLv3+
  * @license   https://opensource.org/licenses/MIT MIT
  * @license   http://www.gnu.org/licenses/gpl.txt GPLv3+
- * @author    Roberto L. Machado <linux.rlm at gmail dot com>
+ * @author    Maykon da S. de Siqueira <maykon at multilig dot com dot br>
  * @link      http://github.com/nfephp-org/sped-nfse for the canonical source repository
  */
 
-use NFePHP\NFSe\Models\Dsfnet\Response as ResponseModel;
+use NFePHP\NFSe\Models\Abrasf\Factories\v201\Response as ResponseModel;
 
 class Response extends ResponseModel
 {
